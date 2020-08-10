@@ -38,7 +38,7 @@ let commentList = (function () {
       arrayStore[i] = arrayItem;
       i++;
     });
-    console.log(arrayStore);
+    console.table(arrayStore);
     commentList = arrayStore;
     return commentList;
   };
